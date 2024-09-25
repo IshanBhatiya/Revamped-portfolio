@@ -5,11 +5,11 @@ import Image from "next/image";
 export default function page() {
   return (
     <>
-      <div className="container my-20 w-screen">
+      <div className="container my-20">
         <h1 className="text-3xl text-center">My Expertise</h1>
 
         <div className="mt-5">
-          <div className="border border-spacing-0.5 p-5">
+          <div className="border border-spacing-0.5 p-5 w-[98vw]">
             <Marquee>
               <div className="flex gap-2">
                 <div className="border border-gray-900 bg-slate-900 w-32 h-28">
